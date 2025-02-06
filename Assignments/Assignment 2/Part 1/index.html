@@ -2,7 +2,7 @@
 <!--
 Name: Mariah Jurao, Aravind Arampu
 File: index.html
-Date: 29 Jan 2025 
+Date: 6 Feb 2025 
 This html file is for Mozilla splash page -->
 
 <!DOCTYPE html>
@@ -12,6 +12,8 @@ This html file is for Mozilla splash page -->
     <meta name="viewport" content="width=device-width">
     <title>Mozilla splash page</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    
+    <!--Configured format-->
     <style>
       
       /* header and body setup */
@@ -103,6 +105,58 @@ This html file is for Mozilla splash page -->
       .red-panda img {
         display: block;
         max-width: 100%;
+        width: auto;
+      }
+
+      /* This part is the resizing part of all the images */
+      @media(max-width: 600px) {
+        .firefox-logo {
+          width: 120px;
+        }
+        .addons-image {
+          width: 120px;
+        }
+        .dinosaur-logo {
+          width: 120px;
+        }
+      }
+
+
+      @media (min-width: 601px) {
+        .firefox-logo {
+          width: 400px;
+        }
+        .addons-image {
+          width: 400px;
+        }
+        .dinosaur-logo {
+          width: 400px;
+        }
+      }
+
+      /* this is for the red panda image resizing */
+      @media (orientation: landscape) {
+        .red-panda {
+          width: 100%;
+        }
+      }
+    
+      @media (max-width: 1200px) and (min-width: 600px) and (orientation: landscape) {
+        .red-panda {
+          width: 100%;
+        }
+      }
+    
+      @media (orientation: portrait) {
+        .red-panda {
+          width: 100%;
+          object-fit: cover; /* To zoom in/close-up on just the panda */
+        }
+      }
+    
+      /* The 120px version of the Firefox logo with an appropriate alt attribute */
+      .firefox-logo-120 {
+        width: 120px;
       }
     </style>
   </head>
@@ -114,6 +168,7 @@ This html file is for Mozilla splash page -->
 
     <main>
       <article>
+        <!-- iframe can be get in the provided youtube video. Make sure to copy and paste it. We do not have to delete or change anything.-->
         <iframe width="400" height="225" src="https://www.youtube.com/embed/ojcNcvb1olg?si=6U4MMQWZ5YVl9TEm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <h2>Rocking the free web</h2>
 
@@ -126,36 +181,39 @@ This html file is for Mozilla splash page -->
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/"> 
           <img 
-           srcset="ORIGINALS/firefox_logo-only_RGB.png"
-           sizes="(max-width:500 px) 1200px, 400px"
-           src = "ORIGINALS/firefox_logo-only_RGB.png" 
-           alt = "Firefox Logo">
+            srcset="ORIGINALS/firefox_logo-only_RGB.png 400w"
+            sizes="(max-width:600px) 120px, 400px"
+            src = "ORIGINALS/firefox_logo-only_RGB.png" 
+            alt = "Firefox Logo">
         </a>
         <a href="https://www.mozilla.org/">
           <img 
-          src = "ORIGINALS/mozilla-dinosaur-head.png" 
-          alt = "Dinosaur Head">
+            srcset="ORIGINALS/mozilla-dinosaur-head.png 400w"
+            sizes="(max-width:600px) 120px, 400px"
+            src = "ORIGINALS/mozilla-dinosaur-head.png" 
+            alt = "Dinosaur Head">
         </a>
         <a href="https://addons.mozilla.org/">
           <img
-           src = "ORIGINALS/firefox-addons.jpg" 
-           alt = "Firefox add-ons">
+            srcset="ORIGINALS/firefox-addons.jpg 400w"
+            sizes="(max-width:500px) 100vw, (min-width: 501px) 400px"
+            src = "ORIGINALS/firefox-addons.jpg" 
+            alt = "Firefox add-ons">
         </a>
         <a href="https://developer.mozilla.org/en-US/">
-          <img 
-          src = "mdn.svg" 
-          alt ="mdn">
+          <img
+            src = "mdn.svg" 
+            alt ="mdn">
         </a>
         <div class="clearfix"></div>
       </div>
 
       <div class="red-panda">
-        <picture>
-          <source media="(max-width: 600px)" srcset="ORIGINALS/red-panda.jpg">
-          <img src="ORIGINALS/red-panda.jpg" alt="red panda">
-        </picture>
+        <img 
+          src="ORIGINALS/red-panda.jpg" 
+          alt="red panda">
       </div>
-
+      
     </main>
   </body>
 </html>
