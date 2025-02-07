@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca2614fb-d473-4a4d-ac5c-9ba524a387b8" name="Changes" comment="Fixed indenting and spacing">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 2/Part 1/firefox-addons.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 2/Part 1/firefox_logo-only_RGB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 2/Part 1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 2/Part 1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 2/Part 1/mozilla-dinosaur-head.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 2/Part 1/pattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 2/Part 1/red-panda.jpg" beforeDir="false" />
-    </list>
+    <list default="true" id="ca2614fb-d473-4a4d-ac5c-9ba524a387b8" name="Changes" comment="UPDATING REPO" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,7 +148,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738893881844</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Fixed zoom issue with red panda&#10;Put images into a folder">
+      <option name="closed" value="true" />
+      <created>1738898287809</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1738898287809</updated>
+    </task>
+    <task id="LOCAL-00012" summary="UPDATING REPO">
+      <option name="closed" value="true" />
+      <created>1738898359623</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1738898359623</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -170,6 +178,8 @@
     <MESSAGE value="Added scope=&quot;col&quot; attribute on each &lt;th&gt; element in the table header row&#10;&#10;Added scope=&quot;row&quot; attribute on each &lt;th&gt; elements containing planet names, and the one containing &quot;Dwarf planets&quot; &#10;&#10;Added scope=&quot;rowgroup&quot; attribute on each &lt;th&gt; elements containing &quot;Terrestrial planets&quot;, &quot;Jovian planets&quot;, &quot;Gas giants&quot;, and &quot;Ice giants&#10;Fixed code to meet XHTML validation." />
     <MESSAGE value="Added comments in the html file&#10;Changed black border to 2px" />
     <MESSAGE value="Fixed indenting and spacing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed indenting and spacing" />
+    <MESSAGE value="Fixed zoom issue with red panda&#10;Put images into a folder" />
+    <MESSAGE value="UPDATING REPO" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATING REPO" />
   </component>
 </project>
