@@ -13,12 +13,13 @@ Date: 04 Feb 2025-->
   <body>
     <h1>Planets data</h1>
       <table>
-        <caption>Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric.</a>
-        </caption>
+        <caption>Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric.</a></caption>
+       <!--Implements a black border around the planet names column-->
         <colgroup>
           <col span="2"/>
-          <col style="border: 3px solid black"/>
+          <col style="border: 2px solid black"/>
         </colgroup>
+        <!--Creates the column headers for the table-->
           <thead>
             <tr>
               <td colspan="2"></td>
@@ -34,10 +35,14 @@ Date: 04 Feb 2025-->
               <th scope="col">Notes</th>
             </tr>
           </thead>
+
           <tbody>
             <tr>
+              <!--Creates the row header-->
               <th scope="rowgroup" colspan="2" rowspan="4">Terrestrial planets</th>
+              <!--Creates the sub row header-->
               <th scope="row">Mercury</th>
+              <!--Creates the cells for the data-->
               <td>0.330</td>
               <td>4,879</td>
               <td>5427</td>
@@ -49,7 +54,9 @@ Date: 04 Feb 2025-->
               <td>Closest to the Sun</td>
             </tr>
             <tr>
+              <!--Creates the sub row header-->
               <th scope="row">Venus</th>
+              <!--Creates the cells for the data-->
               <td>4.87</td>
               <td>12,104</td>
               <td>5243</td>
@@ -61,7 +68,9 @@ Date: 04 Feb 2025-->
               <td></td>
             </tr>
             <tr>
+              <!--Creates the sub row header-->
               <th scope="row">Earth</th>
+              <!--Creates the cells for the data-->
               <td>5.97</td>
               <td>12,756</td>
               <td>5514</td>
@@ -73,7 +82,9 @@ Date: 04 Feb 2025-->
               <td>Our world</td>
             </tr>
             <tr>
+              <!--Creates the sub row header-->
               <th scope="row">Mars</th>
+              <!--Creates the cells for the data-->
               <td>0.642</td>
               <td>6,792</td>
               <td>3933</td>
@@ -86,9 +97,13 @@ Date: 04 Feb 2025-->
             </tr>
 
             <tr>
+              <!--Creates the row header-->
               <th scope="rowgroup" rowspan="4">Jovian planets</th>
+              <!--Creates the sub row header-->
               <th scope="rowgroup" rowspan="2">Gas giants</th>
+              <!--Creates the sub row header-->
               <th scope="row">Jupiter</th>
+              <!--Creates the cells for the data-->
               <td>1898</td>
               <td>142,984</td>
               <td>1326</td>
@@ -101,7 +116,9 @@ Date: 04 Feb 2025-->
             </tr>
 
             <tr>
+              <!--Creates the sub row header-->
               <th scope="row">Saturn</th>
+              <!--Creates the cells for the data-->
               <td>568</td>
               <td>120,536</td>
               <td>687</td>
@@ -114,8 +131,11 @@ Date: 04 Feb 2025-->
             </tr>
 
           <tr>
+            <!--Creates the sub row header-->
             <th scope="rowgroup" rowspan="2">Ice giants</th>
+            <!--Creates the sub row header-->
             <th scope="row">Uranus</th>
+            <!--Creates the cells for the data-->
             <td>86.8</td>
             <td>51,118</td>
             <td>1271</td>
@@ -128,7 +148,9 @@ Date: 04 Feb 2025-->
           </tr>
 
           <tr>
+            <!--Creates the sub row header-->
             <th scope="row">Neptune</th>
+            <!--Creates the cells for the data-->
             <td>102</td>
             <td>49,528</td>
             <td>1638</td>
@@ -141,8 +163,11 @@ Date: 04 Feb 2025-->
           </tr>
 
           <tr>
+            <!--Creates the row header-->
             <th scope="row" colspan="2">Dwarf planets</th>
+            <!--Creates the sub row header-->
             <th scope="row">Pluto</th>
+            <!--Creates the cells for the data-->
             <td>0.0146</td>
             <td>2,370</td>
             <td>2095</td>
