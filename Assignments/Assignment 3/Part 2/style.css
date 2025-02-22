@@ -15,4 +15,8 @@ html {
 div {
   width: 200ptx; /* Set the width of the box */
   height: auto; /* Set the height of the box */
+  margin: auto; /* Centers the box horizontally */
+  font-size: 1.1rem; /* Set the font size to 1.1 rem */
+  background-color: red; /* Set the background color to red */
+
 }
