@@ -6,38 +6,46 @@ This is the CSS file is for styling a Biography Page
 
 <!--link to repo https://github.com/AAravindDC/INFT-1206-03---Web-Development---Fundamentals.git-->
 */
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Style for all <h1> elements */
 h1 {
-  color: hotpink;
+  color: hotpink; /* Set the text color to hot pink */
   font-size: 2em;
   font-family: Georgia, "Times New Roman", Times, serif;
-  border-bottom: 10px dotted purple;
+  border-bottom: 10px dotted purple; /* Add a purple dotted border at the bottom */
 }
 
+/* Style for all <h2> elements */
 h2 {
   font-size: 1.5em;
-  font-style: italic;
+  font-style: italic; /* Set the font style to italic */
 }
 
+/* Style for elements with the class "job-title" */
 .job-title {
   color: #999999;
   font-weight: bold;
 }
 
+/* Styles for all unvisited and visited links */
 a:link,
 a:visited {
   color: #fb6542;
 }
 
+/* Style for hovered links */
 a:hover {
+  color: green; /* Change the link color to green on hover */
   text-decoration: none;
 }
 
+/* Style for elements with the class "contact" */
 .contact {
-  background: #eeeeee;
-  border: 5px solid purple;
-  padding: 2rem;
+  background: #eeeeee; /* Set the background color to light gray */
+  border: 5px solid purple; /* Add a solid purple border with a thickness of 5px */
+  padding: 2rem; /* Add padding inside the element */
 }
