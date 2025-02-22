@@ -16,7 +16,9 @@ div {
   width: 200ptx; /* Set the width of the box */
   height: auto; /* Set the height of the box */
   margin: auto; /* Centers the box horizontally */
-  font-size: 1.1rem; /* Set the font size to 1.1 rem */
-  background-color: red; /* Set the background color to red */
+  font-size: 1.1rem; /*font size set to 1.1 rem */
+  background-color: red; /* background color set to red */
+  color: white; /* text color is set to white */
+  text-shadow: 1px 1px 1px black; /* black shadow added to the text */
 
 }
