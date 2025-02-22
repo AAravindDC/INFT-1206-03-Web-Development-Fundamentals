@@ -111,11 +111,11 @@ section h2 + p {
 
 a:link, a:visited {
   color: #a66; /* Link color */
-
+  text-decoration: underline; /* Underline links */
 }
 
 a:focus, a:hover {
-
+  text-decoration: none; /* Remove underline on focus/hover */
 }
 
 a:active {
@@ -127,7 +127,13 @@ a:active {
 }
 
 a {
-  outline: none;
+  outline: none; /* Remove default outline */
+}
+
+a[href*="http"] {
+  padding-right: 19px; /* Padding for external links */
+  background: url(external-link-52.png) no-repeat 100% 0; /* External link icon */
+  background-size: 16px 16px; /* Size of the icon */
 }
 
 
