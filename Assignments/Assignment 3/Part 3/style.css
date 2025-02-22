@@ -51,6 +51,10 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+
+
+/* lovatolight font was downloaded from https://www.onlinewebfonts.com/download/04d7b660906a972a89003f92e3392502
+    created by Philatype */
 @font-face {
     font-family: 'lovatolight';
     src: url('fonts/Lovato-Light-webfont.eot');
@@ -62,7 +66,8 @@ header, footer {
     font-weight: normal;
     font-style: normal;
 }
-
+/* josefin_slabbold font was downloaded from https://www.fontsquirrel.com/fonts/josefin-slab
+    created by Typemade*/
 @font-face {
     font-family: 'josefin_slabbold';
     src: url('fonts/josefinslab-bold-webfont.eot');
@@ -74,3 +79,14 @@ header, footer {
     font-weight: normal;
     font-style: normal;
 }
+
+html {
+  font-family: lovatolight, serif; /* Body font */
+  font-size: 10px; /* site-wide font size of 10px */
+}
+
+h1, h2 {
+  font-family: josefin_slabbold, sans-serif; /* Heading font */
+}
+
+
