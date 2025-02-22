@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca2614fb-d473-4a4d-ac5c-9ba524a387b8" name="Changes" comment="Added comments to CSS file">
-      <change beforePath="$PROJECT_DIR$/Assignment 3/Part 1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/Part 1/index.html" afterDir="false" />
+    <list default="true" id="ca2614fb-d473-4a4d-ac5c-9ba524a387b8" name="Changes" comment="fixed spacing for HTML file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,7 +286,31 @@
       <option name="project" value="LOCAL" />
       <updated>1740242431650</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Added comments to CSS file and HTML file.">
+      <option name="closed" value="true" />
+      <created>1740242742595</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1740242742595</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Added some padding and margin to CSS">
+      <option name="closed" value="true" />
+      <created>1740243419300</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1740243419300</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fixed spacing for HTML file">
+      <option name="closed" value="true" />
+      <created>1740243476178</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1740243476178</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,8 +325,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HTML comment was added." />
-    <MESSAGE value="Adding files to github." />
     <MESSAGE value="HTML header added" />
     <MESSAGE value="Added table element that included &lt;thead&gt; and &lt;tbody&gt; elements&#10;Added a caption element right below the table tag&#10;Added &lt;tr&gt; element with &lt;th&gt; elements" />
     <MESSAGE value="Added more &lt;tr&gt; with additional &lt;th&gt;&#10;Names of the planets were put into the &lt;th&gt;&#10;Added rowspan &quot;4&quot; to Terrestrial planets" />
@@ -325,6 +347,9 @@
     <MESSAGE value="Added class named contact&#10;made the class Give the ul used for the contact details a background-color of #eeeeee, and a 5px solid purple border. &#10;Padding also added to push content away from the border." />
     <MESSAGE value="Made the links green on hover." />
     <MESSAGE value="Added comments to CSS file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added comments to CSS file" />
+    <MESSAGE value="Added comments to CSS file and HTML file." />
+    <MESSAGE value="Added some padding and margin to CSS" />
+    <MESSAGE value="fixed spacing for HTML file" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed spacing for HTML file" />
   </component>
 </project>
