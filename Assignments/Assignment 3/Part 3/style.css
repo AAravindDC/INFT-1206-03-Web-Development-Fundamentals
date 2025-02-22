@@ -111,7 +111,6 @@ section h2 + p {
 
 a:link, a:visited {
   color: #a66; /* Link color */
-  text-decoration: underline; /* Underline links */
 }
 
 a:focus, a:hover {
@@ -135,6 +134,50 @@ a[href*="http"] {
   background: url(external-link-52.png) no-repeat 100% 0; /* External link icon */
   background-size: 16px 16px; /* Size of the icon */
 }
+
+ul, ol {
+  margin: 1.6rem 0; /* Margin for lists */
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: lower-latin;
+}
+
+/* Navigation menu */
+nav ul {
+  padding-left: 0; /* Remove padding from nav ul */
+  margin-top: 0.8rem; /* Top of the Margin for nav li */
+}
+
+nav li {
+  list-style-type: none; /* Remove bullet points from nav li */
+  margin-bottom: 2rem; /* Bottom of the Margin for nav li */
+}
+
+nav li a {
+  text-decoration: none; /* Remove text-decoration from nav links */
+  display: inline-block;
+  width: 100%;
+  line-height: 3;
+  text-align: center; /* Center align nav links */
+  font-size: 2.5rem; /* Font size for nav links */
+  border: 1px solid #a66;
+}
+
+nav li a:focus, nav li a:hover {
+  color: white;
+  background: #a66;/* Background  focus/hover */
+}
+
+nav li a:active {
+  color: white;
+  background: black; /* Background color to be black on click
+}
+
 
 
 
