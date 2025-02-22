@@ -12,3 +12,7 @@ html {
 }
 
 /* Your CSS below here */
+div {
+  width: 200ptx; /* Set the width of the box */
+  height: auto; /* Set the height of the box */
+}
