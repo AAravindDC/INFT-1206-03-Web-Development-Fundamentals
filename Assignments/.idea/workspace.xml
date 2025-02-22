@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca2614fb-d473-4a4d-ac5c-9ba524a387b8" name="Changes" comment="Centered the box horizontally.&#10;Implemented red as the background colour.&#10;Added a contrasting color white and added a black shadow for text on the page." />
+    <list default="true" id="ca2614fb-d473-4a4d-ac5c-9ba524a387b8" name="Changes" comment="Added rounded corners to the box&#10;Added a 1px solid border with a darker red color">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 3/Part 2/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/Part 2/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -372,7 +375,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740245985031</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Added rounded corners to the box&#10;Added a 1px solid border with a darker red color">
+      <option name="closed" value="true" />
+      <created>1740246236485</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1740246236485</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -387,7 +398,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed indenting and spacing" />
     <MESSAGE value="Fixed zoom issue with red panda&#10;Put images into a folder" />
     <MESSAGE value="UPDATING REPO" />
     <MESSAGE value="Adding files to Repo" />
@@ -412,6 +422,7 @@
     <MESSAGE value="Added a div and set the width to 200px and the height to auto" />
     <MESSAGE value="Centered the box horizontally&#10;Implemented red as the background colour" />
     <MESSAGE value="Centered the box horizontally.&#10;Implemented red as the background colour.&#10;Added a contrasting color white and added a black shadow for text on the page." />
-    <option name="LAST_COMMIT_MESSAGE" value="Centered the box horizontally.&#10;Implemented red as the background colour.&#10;Added a contrasting color white and added a black shadow for text on the page." />
+    <MESSAGE value="Added rounded corners to the box&#10;Added a 1px solid border with a darker red color" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added rounded corners to the box&#10;Added a 1px solid border with a darker red color" />
   </component>
 </project>

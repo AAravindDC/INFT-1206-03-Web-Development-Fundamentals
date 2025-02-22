@@ -13,15 +13,24 @@ html {
 
 /* Your CSS below here */
 div {
-  width: 200ptx; /* Set the width of the box */
-  height: auto; /* Set the height of the box */
+  width: 200px; /* Set the width of the box */
+  line-height: 9;/* Set the height of the box */
   margin: auto; /* Centers the box horizontally */
   font-size: 1.1rem; /*font size set to 1.1 rem */
   background-color: red; /* background color set to red */
   color: white; /* text color is set to white */
+  text-align: center; /* center the text to the center of the box */
   text-shadow: 1px 1px 1px black; /* black shadow added to the text */
   border-radius: 10px; /* Round corners of the box */
   border: 1px solid #990000; /* Adds a solid border with a slightly darker red color */
-
-
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6),
+    2px 2px 5px black;
 }
