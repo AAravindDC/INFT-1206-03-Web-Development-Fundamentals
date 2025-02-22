@@ -87,6 +87,22 @@ html {
 
 h1, h2 {
   font-family: josefin_slabbold, sans-serif; /* Heading font */
+  letter-spacing: 2px; /* letter spacing for headings */
+}
+
+h1 {
+  font-size: 5rem; /* Font size for h1 */
+  text-align: center; /* Center align h1 */
+}
+
+h2 {
+  font-size: 3.2rem; /* Font size for h2 */
+}
+
+p, li {
+  font-size: 1.6rem; /* Font size for body text */
+  line-height: 1.5; /* Line height for body text */
+  letter-spacing: 0.5px; /* Letter spacing for body text */
 }
 
 
