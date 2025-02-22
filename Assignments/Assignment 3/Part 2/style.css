@@ -20,5 +20,8 @@ div {
   background-color: red; /* background color set to red */
   color: white; /* text color is set to white */
   text-shadow: 1px 1px 1px black; /* black shadow added to the text */
+  border-radius: 10px; /* Round corners of the box */
+  border: 1px solid #990000; /* Adds a solid border with a slightly darker red color */
+
 
 }
