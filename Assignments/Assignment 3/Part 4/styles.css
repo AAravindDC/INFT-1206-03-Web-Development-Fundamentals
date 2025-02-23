@@ -42,7 +42,7 @@ body {
     padding: 0;
     list-style: none;
     display: flex; /* Displays the navigation items in a row */
-    justify-content: space-between; /* Puts and even amount of space between the items
+    justify-content: space-between; /* Puts and even amount of space between the items */
   }
   
   nav a {
@@ -59,4 +59,6 @@ body {
 
   .feature {
       width: 200px;
+      float: left; /* Floats the image to the left*/
+      margin: 0 20px 20px 0; /*Sets the margin to move text away from the image*/
   }
