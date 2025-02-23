@@ -59,6 +59,9 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;/* Create two columns with a ratio of 1 to 1 */
+    grid-gap: 1px;/* Set a 1px gap between the images in the grid */
   }
 
   .feature {
