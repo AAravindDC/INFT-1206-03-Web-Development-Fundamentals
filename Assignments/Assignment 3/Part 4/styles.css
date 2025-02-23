@@ -40,6 +40,8 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex; /* Displays the navigation items in a row */
+    justify-content: space-between; /* Puts and even amount of space between the items
   }
   
   nav a {

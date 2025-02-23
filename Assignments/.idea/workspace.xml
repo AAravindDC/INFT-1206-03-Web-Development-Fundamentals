@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca2614fb-d473-4a4d-ac5c-9ba524a387b8" name="Changes" comment="edit made to html file for CSS link" />
+    <list default="true" id="ca2614fb-d473-4a4d-ac5c-9ba524a387b8" name="Changes" comment="Added Header to CSS file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 3/Part 4/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/Part 4/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,22 +70,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738275026811</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Adding files to github.">
-      <option name="closed" value="true" />
-      <created>1738687851742</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1738687851742</updated>
-    </task>
-    <task id="LOCAL-00003" summary="HTML header added">
-      <option name="closed" value="true" />
-      <created>1738688290209</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1738688290209</updated>
     </task>
     <task id="LOCAL-00004" summary="Added table element that included &lt;thead&gt; and &lt;tbody&gt; elements&#10;Added a caption element right below the table tag&#10;Added &lt;tr&gt; element with &lt;th&gt; elements">
       <option name="closed" value="true" />
@@ -460,7 +447,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740269897275</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Added Header to html file">
+      <option name="closed" value="true" />
+      <created>1740270252059</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1740270252059</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Added Header to CSS file">
+      <option name="closed" value="true" />
+      <created>1740270317350</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1740270317350</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -475,8 +478,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added comments to CSS file" />
-    <MESSAGE value="Added comments to CSS file and HTML file." />
     <MESSAGE value="Added some padding and margin to CSS" />
     <MESSAGE value="fixed spacing for HTML file" />
     <MESSAGE value="Adding files to repo for Assignment 3 part 2" />
@@ -500,6 +501,8 @@
     <MESSAGE value="Edit to CSS link" />
     <MESSAGE value="Adding Assignment 3 part 4 files to repo" />
     <MESSAGE value="edit made to html file for CSS link" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit made to html file for CSS link" />
+    <MESSAGE value="Added Header to html file" />
+    <MESSAGE value="Added Header to CSS file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Header to CSS file" />
   </component>
 </project>
