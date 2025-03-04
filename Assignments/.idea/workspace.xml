@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca2614fb-d473-4a4d-ac5c-9ba524a387b8" name="Changes" comment="Used newStory.replaceAll() function call to replace :insertx:, :inserty: and :insertz: with the random insertX, insertY and insertZ variables.&#10;Used newStory.replaceAll() function call to replace Bob in the newstory variable with the name entered.">
+    <list default="true" id="ca2614fb-d473-4a4d-ac5c-9ba524a387b8" name="Changes" comment="Add conversion logic to result function for &quot;uk&quot; radio input&#10;&#10;- Convert 300lb to its equivalent in &quot;stones&quot; when the &quot;uk&quot; radio input is selected.&#10;- Convert 94°F to its equivalent in centigrade using the equation celsius = (fahrenheit - 32) * 5 / 9 when the &quot;uk&quot; radio input is selected.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 4/Part 1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 4/Part 1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment 4/Part 1/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 4/Part 1/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,14 +71,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738275026811</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Modified the bottom-border property in the h1 selector to 10px dotted and the CSS color keyword purple.">
-      <option name="closed" value="true" />
-      <created>1740240162410</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1740240162410</updated>
     </task>
     <task id="LOCAL-00024" summary="Added class attribute contact to ul tag">
       <option name="closed" value="true" />
@@ -463,7 +456,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741071857673</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Add conversion logic to result function for &quot;uk&quot; radio input&#10;&#10;- Convert 300lb to its equivalent in &quot;stones&quot; when the &quot;uk&quot; radio input is selected.&#10;- Convert 94°F to its equivalent in centigrade using the equation celsius = (fahrenheit - 32) * 5 / 9 when the &quot;uk&quot; radio input is selected.">
+      <option name="closed" value="true" />
+      <created>1741072548324</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1741072548324</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -478,7 +479,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added styling that makes links underlined unless they are hovered over or given focus, then the underline should be removed&#10;Removed the default focus outline from all links &#10;Added external link icon to be displayed beside external links" />
     <MESSAGE value="Added a margin of 1.6rem for lists&#10;Added list-style-type square for ul&#10;Added list-style-type lower-latin for ol&#10;Added styling for the nav bar elements by &#10; using padding, margins, removing list-style-type, display, differing focus and hover and active states for nav links." />
     <MESSAGE value="Edit to CSS link" />
     <MESSAGE value="Adding Assignment 3 part 4 files to repo" />
@@ -503,6 +503,7 @@
     <MESSAGE value="Created a new variable newStory set equal to storyText in the result() function &#10; created three (3) variables xitem, yItem and zItem that are respectively set by selecting a random element from insertX, insertY and insertZ using the randowmValueFromArray() function." />
     <MESSAGE value="Implemented main.js to index.html" />
     <MESSAGE value="Used newStory.replaceAll() function call to replace :insertx:, :inserty: and :insertz: with the random insertX, insertY and insertZ variables.&#10;Used newStory.replaceAll() function call to replace Bob in the newstory variable with the name entered." />
-    <option name="LAST_COMMIT_MESSAGE" value="Used newStory.replaceAll() function call to replace :insertx:, :inserty: and :insertz: with the random insertX, insertY and insertZ variables.&#10;Used newStory.replaceAll() function call to replace Bob in the newstory variable with the name entered." />
+    <MESSAGE value="Add conversion logic to result function for &quot;uk&quot; radio input&#10;&#10;- Convert 300lb to its equivalent in &quot;stones&quot; when the &quot;uk&quot; radio input is selected.&#10;- Convert 94°F to its equivalent in centigrade using the equation celsius = (fahrenheit - 32) * 5 / 9 when the &quot;uk&quot; radio input is selected." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add conversion logic to result function for &quot;uk&quot; radio input&#10;&#10;- Convert 300lb to its equivalent in &quot;stones&quot; when the &quot;uk&quot; radio input is selected.&#10;- Convert 94°F to its equivalent in centigrade using the equation celsius = (fahrenheit - 32) * 5 / 9 when the &quot;uk&quot; radio input is selected." />
   </component>
 </project>
