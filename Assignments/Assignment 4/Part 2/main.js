@@ -23,7 +23,10 @@ for (let i = 1; i < imagesArray.length; i++) {
     newImage.setAttribute('src', `images/pic${i}.jpg`);
     newImage.setAttribute('alt', textArray[i-1]);
     thumbBar.appendChild(newImage);
-
+    newImage.addEventListener(
+        'click', e => {displayedImage.src = e.target.src
+                       displayedImage.alt = e.target.alt
+                        });
 }
 
 

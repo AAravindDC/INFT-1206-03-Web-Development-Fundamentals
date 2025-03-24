@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28a82aea-b789-4d4b-9dd3-4b0c20dcd021" name="Changes" comment="In main.js. added a loop that goes through the array of images starting at 1 (that is included in the file name of the first picture, not 0 the index of the first picture in the array)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="28a82aea-b789-4d4b-9dd3-4b0c20dcd021" name="Changes" comment="Added more elements to the textArray, that holds the text description for the images that are held in a different const array.">
       <change beforePath="$PROJECT_DIR$/Part 2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Part 2/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +81,7 @@
       <updated>1741899747559</updated>
       <workItem from="1741899748939" duration="9086000" />
       <workItem from="1742481492677" duration="715000" />
-      <workItem from="1742711345979" duration="9338000" />
+      <workItem from="1742711345979" duration="9662000" />
     </task>
     <task id="LOCAL-00001" summary="Adding files to repo.">
       <option name="closed" value="true" />
@@ -116,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742788791863</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added more elements to the textArray, that holds the text description for the images that are held in a different const array.">
+      <option name="closed" value="true" />
+      <created>1742790539990</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742790539990</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +145,7 @@
     <MESSAGE value="Adding files to repo for Assignment 4 part 2" />
     <MESSAGE value="Added header comments to the uploaded files for Assignment 4 part 4." />
     <MESSAGE value="In main.js. added a loop that goes through the array of images starting at 1 (that is included in the file name of the first picture, not 0 the index of the first picture in the array)" />
-    <option name="LAST_COMMIT_MESSAGE" value="In main.js. added a loop that goes through the array of images starting at 1 (that is included in the file name of the first picture, not 0 the index of the first picture in the array)" />
+    <MESSAGE value="Added more elements to the textArray, that holds the text description for the images that are held in a different const array." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more elements to the textArray, that holds the text description for the images that are held in a different const array." />
   </component>
 </project>
