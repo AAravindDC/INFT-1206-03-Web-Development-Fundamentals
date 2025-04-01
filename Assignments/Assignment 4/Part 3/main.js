@@ -1,3 +1,10 @@
+/*<
+Name: Aravind Arampu
+File: main.js
+Date: 31 March 2025
+This JavaScript file is for Object building practice.
+Link to repo https://github.com/AAravindDC/INFT-1206-03-Web-Development-Fundamentals.git
+ >*/
 // setup canvas
 
 const canvas = document.querySelector("canvas");
