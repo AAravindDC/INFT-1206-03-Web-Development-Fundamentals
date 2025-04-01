@@ -6,6 +6,8 @@ This JavaScript file is for a Challenge: Adding features to our bouncing balls d
 Link to repo https://github.com/AAravindDC/INFT-1206-03-Web-Development-Fundamentals.git
  >*/
 // set up canvas
+const para = document.querySelector('p');
+let count = 0;
 
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
@@ -85,6 +87,8 @@ class Ball extends Shape{
   }
 }
 
+
+
 const balls = [];
 
 while (balls.length < 25) {
@@ -101,6 +105,34 @@ while (balls.length < 25) {
   );
 
   balls.push(ball);
+}
+
+class EvilCircle extends Shape {
+
+  constructor(x, y) {
+    super(x, y, 20, 20);
+
+    this.color = "white";
+    this.size = 10;
+
+    window.addEventListener('keydown', (e) => {
+      switch(e.key) {
+        case 'a':
+          this.x -= this.velX;
+          break;
+        case 'd':
+          this.x += this.velX;
+          break;
+        case 'w':
+          this.y -= this.velY;
+          break;
+        case 's':
+          this.y += this.velY;
+          break;
+      }
+    });
+  }
+
 }
 
 function loop() {
