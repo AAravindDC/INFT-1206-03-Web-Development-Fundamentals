@@ -1,3 +1,10 @@
+/*<
+Name: Aravind Arampu
+File: main-finished.js
+Date: 31 March 2025
+This JavaScript file is for a Challenge: Adding features to our bouncing balls demo.
+Link to repo https://github.com/AAravindDC/INFT-1206-03-Web-Development-Fundamentals.git
+ >*/
 // set up canvas
 
 const canvas = document.querySelector("canvas");
