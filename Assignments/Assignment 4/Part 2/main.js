@@ -18,12 +18,15 @@ const imagesArray = ['pic1.jpg','pic2.jpg','pic3.jpg','pic4.jpg','pic5.jpg','pic
 const textArray = ['Closeup of a human eye', 'A rock formation resembling a wave','White and purple flowers', 'Section of wall from a pharoah\'s tomb', 'Butter fly on a large green leaf'];
 
 /* Looping through images */
+//for loop that runs for the length of the imagesArray
 for (let i = 1; i < imagesArray.length; i++) {
+    // a new image element is created for each picture
     const newImage = document.createElement('img');
     newImage.setAttribute('src', `images/pic${i}.jpg`);
     newImage.setAttribute('alt', textArray[i-1]);
     thumbBar.appendChild(newImage);
     newImage.addEventListener(
+        //Changes the displayed image depending on which image is clicked
         'click', e => {displayedImage.src = e.target.src
                        displayedImage.alt = e.target.alt
                         });
@@ -32,13 +35,18 @@ for (let i = 1; i < imagesArray.length; i++) {
 /* Wiring up the Darken/Lighten button */
 btn.addEventListener('click', () => {
     const btnClass = btn.getAttribute('class');
+    //Check to see if button's class is dark
     if (btnClass === 'dark') {
         btn.setAttribute('class','light');
+        //changes the button to Lighten
         btn.textContent = 'Lighten';
+        //changes the overlay colour on the displayed image to darken
         overlay.style.backgroundColor = 'rgba(0,0,0,0.5)';
     } else {
         btn.setAttribute('class','dark');
+        //changes button to darken
         btn.textContent = 'Darken';
+        //changes the overlay colour on the displayed image to be clear
         overlay.style.backgroundColor = 'rgba(0,0,0,0)';
     }
 });
