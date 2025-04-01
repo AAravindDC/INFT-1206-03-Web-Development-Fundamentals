@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28a82aea-b789-4d4b-9dd3-4b0c20dcd021" name="Changes" comment="Added more elements to the textArray, that holds the text description for the images that are held in a different const array.">
+    <list default="true" id="28a82aea-b789-4d4b-9dd3-4b0c20dcd021" name="Changes" comment="Added an event listener for the &quot;click&quot; event on all thumbnails">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Part 2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Part 2/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,21 +36,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/aravi/OneDrive - Durham College/Notes/SEM 2/Web Dev/GitHUB/Assignments/Assignment 4&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/aravi/Downloads/COSC-1200-09---Object-Oriented-Programming-1-master (1)/COSC-1200-09---Object-Oriented-Programming-1-master/ScoringForBowling",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Assignment 4" />
@@ -81,7 +82,9 @@
       <updated>1741899747559</updated>
       <workItem from="1741899748939" duration="9086000" />
       <workItem from="1742481492677" duration="715000" />
-      <workItem from="1742711345979" duration="9662000" />
+      <workItem from="1742711345979" duration="11795000" />
+      <workItem from="1742840374678" duration="1498000" />
+      <workItem from="1742931962637" duration="11880000" />
     </task>
     <task id="LOCAL-00001" summary="Adding files to repo.">
       <option name="closed" value="true" />
@@ -123,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742790539990</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added an event listener for the &quot;click&quot; event on all thumbnails">
+      <option name="closed" value="true" />
+      <created>1742790648596</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742790648596</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +157,7 @@
     <MESSAGE value="Added header comments to the uploaded files for Assignment 4 part 4." />
     <MESSAGE value="In main.js. added a loop that goes through the array of images starting at 1 (that is included in the file name of the first picture, not 0 the index of the first picture in the array)" />
     <MESSAGE value="Added more elements to the textArray, that holds the text description for the images that are held in a different const array." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added more elements to the textArray, that holds the text description for the images that are held in a different const array." />
+    <MESSAGE value="Added an event listener for the &quot;click&quot; event on all thumbnails" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added an event listener for the &quot;click&quot; event on all thumbnails" />
   </component>
 </project>
