@@ -6,16 +6,19 @@ This CSS file is for a Challenge: Image gallery
 
 link to repo https://github.com/AAravindDC/INFT-1206-03-Web-Development-Fundamentals.git
 */
+/*  main heading styling */
 h1 {
   font-family: helvetica, arial, sans-serif;
   text-align: center;
 }
 
+/* Styling for the body of the webpage */
 body {
   width: 640px;
   margin: 0 auto;
 }
 
+/* Styling for the image displayed in full size */
 .full-img {
   position: relative;
   display: block;
@@ -23,6 +26,7 @@ body {
   height: 480px;
 }
 
+/* Styling for the overlay on the full image */
 .overlay {
   position: absolute;
   top: 0;
@@ -32,6 +36,7 @@ body {
   background-color: rgba(0,0,0,0);
 }
 
+/* Styling for button*/
 button {
   border: 0;
   background: rgba(150,150,150,0.6);
@@ -43,6 +48,7 @@ button {
   left: 2px;
 }
 
+/* Styling for thumbnail images in the thumbnail bar */
 .thumb-bar img {
   display: block;
   width: 20%;
