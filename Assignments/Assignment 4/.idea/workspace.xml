@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28a82aea-b789-4d4b-9dd3-4b0c20dcd021" name="Changes" comment="Added comments and made changes to loop for images.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="28a82aea-b789-4d4b-9dd3-4b0c20dcd021" name="Changes" comment="Added comments and made changes to loop for images." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +39,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/aravi/OneDrive - Durham College/Notes/SEM 2/Web Dev/GitHUB/Assignments/Assignment 4/Part 3",
+    "last_opened_file_path": "C:/Users/aravi/OneDrive - Durham College/Notes/SEM 2/Web Dev/GitHUB/Assignments/Assignment 4/Part 1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -84,6 +82,7 @@
       <workItem from="1742711345979" duration="11795000" />
       <workItem from="1742840374678" duration="1498000" />
       <workItem from="1742931962637" duration="13517000" />
+      <workItem from="1743644082556" duration="72000" />
     </task>
     <task id="LOCAL-00001" summary="Adding files to repo.">
       <option name="closed" value="true" />
