@@ -6,35 +6,36 @@ This JavaScript file is for Object building practice.
 Link to repo https://github.com/AAravindDC/INFT-1206-03-Web-Development-Fundamentals.git
  >*/
 // setup canvas
-
+// Get the canvas element and its 2D drawing tools
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 
+// Set canvas size to match the window
 const width = (canvas.width = window.innerWidth);
 const height = (canvas.height = window.innerHeight);
 
-// function to generate random number
 
+
+// Generate a random number in the given range
 function random(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 // function to generate random color
-
 function randomRGB() {
   return `rgb(${random(0, 255)},${random(0, 255)},${random(0, 255)})`;
 }
 
 class Ball {
   constructor(x, y, velX, velY, color, size) {
-    this.x = x;
-    this.y = y;
-    this.velX = velX;
-    this.velY = velY;
-    this.color = color;
-    this.size = size;
+    this.x = x; // Horizontal position
+    this.y = y; // Vertical position
+    this.velX = velX; // Horizontal speed
+    this.velY = velY; // Vertical speed
+    this.color = color; // Ball color
+    this.size = size; // Ball size
   }
-
+ //Draws the ball
   draw() {
     ctx.beginPath();
     ctx.fillStyle = this.color;
@@ -42,6 +43,7 @@ class Ball {
     ctx.fill();
   }
 
+  // Updates ball position and bounces off the edges of the window
   update() {
     if ((this.x + this.size) >= width) {
       this.velX = -(this.velX);
@@ -62,7 +64,7 @@ class Ball {
     this.x += this.velX;
     this.y += this.velY;
   }
-
+  // Detect collision with other balls and change color
   collisionDetect() {
     for (const ball of balls) {
       if (this !== ball) {
@@ -77,9 +79,9 @@ class Ball {
     }
   }
 }
-
+// Array to store the balls
 const balls = [];
-
+// Creates 25 balls with random sizes, position on screen, speed,and color
 while (balls.length < 25) {
   const size = random(10, 20);
   const ball = new Ball(
@@ -95,7 +97,7 @@ while (balls.length < 25) {
 
   balls.push(ball);
 }
-
+// Animation loop to draw, update, and detect collisions
 function loop() {
   ctx.fillStyle = "rgb(0 0 0 / 25%)";
   ctx.fillRect(0, 0, width, height);
@@ -108,5 +110,5 @@ function loop() {
 
   requestAnimationFrame(loop);
 }
-
+//Starts the loop for the animation .
 loop();
