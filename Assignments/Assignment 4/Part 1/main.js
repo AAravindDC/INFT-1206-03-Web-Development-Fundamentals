@@ -43,7 +43,7 @@ function result() {
   }
   //check to see if a radio button is selected for the UK if true,
   //it will change the units of measurement to UK standards.
-  if(document.getElementById("UK").checked) {
+  if(document.getElementById("uk").checked) {
     //Calculation to convert pounds into stone
     const weight = Math.round(300 * 0.0714286) + " stone";
     //calculation to covert Fahrenheit into Celsius
