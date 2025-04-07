@@ -1,3 +1,10 @@
+/*<
+Name: Aravind Arampu
+File: main.js
+Date: 7 April 2025
+This JavaScript file is for a Challenge: Accessibility troubleshooting.
+Link to repo https://github.com/AAravindDC/INFT-1206-03-Web-Development-Fundamentals.git
+ >*/
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
