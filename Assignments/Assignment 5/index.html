@@ -6,12 +6,13 @@ This HTML file is for a Challenge: Accessibility troubleshooting.
 Link to repo https://github.com/AAravindDC/INFT-1206-03-Web-Development-Fundamentals.git
 -->
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<html lang="en-US">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
 
   <title>Accessibility assessment</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,Sonsie+One" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300%7CSonsie+One" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="style.css">
 
   <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
@@ -21,9 +22,9 @@ Link to repo https://github.com/AAravindDC/INFT-1206-03-Web-Development-Fundamen
 </head>
 
 <body>
-<div class="header">
+<header>
   <h1>Welcome to our wildlife website</h1>
-</div>
+</header>
 
 <nav>
   <ul>
@@ -104,11 +105,15 @@ Link to repo https://github.com/AAravindDC/INFT-1206-03-Web-Development-Fundamen
 
     <p>The following audio clip contains a fact file providing more details about bear mating rituals, along with samples and quotes from experts.</p>
 
-    <audio controls>
+    <audio controls alt="">
       <source src="media/bear.mp3" type="audio/mp3">
       <source src="media/bear.ogg" type="audio/ogg">
-      <p>It looks like your browser doesn't support HTML5 audio players. Here is a <a href="bear.mp3">direct link to the audio file</a> instead.</p>
+
+      <p>It looks like your browser doesn't support HTML5 audio players. Here is a <a href="media/bear.mp3">direct link to the audio file</a> instead.</p>
     </audio>
+    <p><strong>Transcript for the Audio above:</strong> " This isn't really an audio fact file about bears, but it is an audio file that you can transcribe. "</p>
+
+
 
     <aside>
 
@@ -128,11 +133,11 @@ Link to repo https://github.com/AAravindDC/INFT-1206-03-Web-Development-Fundamen
 
         <form class="comment-form">
           <div class="flex-pair">
-            Your name:
+            <label for="name">Your name:</label>
             <input type="text" name="name" id="name" placeholder="Enter your name">
           </div>
           <div class="flex-pair">
-            Your comment:
+            <label for="comment">Your comment:</label>
             <input type="text" name="comment" id="comment" placeholder="Enter your comment">
           </div>
           <div>
