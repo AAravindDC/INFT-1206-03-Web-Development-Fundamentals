@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca2614fb-d473-4a4d-ac5c-9ba524a387b8" name="Changes" comment="Added comments.">
+    <list default="true" id="ca2614fb-d473-4a4d-ac5c-9ba524a387b8" name="Changes" comment="• made the show/hide comment control button keyboard accessible.&#10;&#10;• made the table of data more screenreader friendly by including a summary attribute and/or a &lt;caption&gt; element, changin the first row to &lt;th&gt; elements and adding scope=&quot;col&quot; to the heading in the first row and scope=&quot;row&quot; to the headings in the first column.">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 5/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -39,21 +48,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/aravi/OneDrive - Durham College/Notes/SEM 2/Web Dev/GitHUB/Assignments",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aravi/OneDrive - Durham College/Notes/SEM 2/Web Dev/GitHUB/Assignments&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aravi\OneDrive - Durham College\Notes\SEM 2\Web Dev\GitHUB\Assignments\Assignment 5" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -71,94 +86,10 @@
       <option name="presentableId" value="Default" />
       <updated>1738275026811</updated>
       <workItem from="1743658487284" duration="2671000" />
-    </task>
-    <task id="LOCAL-00027" summary="Added comments to CSS file">
-      <option name="closed" value="true" />
-      <created>1740242431650</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1740242431650</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Added comments to CSS file and HTML file.">
-      <option name="closed" value="true" />
-      <created>1740242742595</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1740242742595</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Added some padding and margin to CSS">
-      <option name="closed" value="true" />
-      <created>1740243419300</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1740243419300</updated>
-    </task>
-    <task id="LOCAL-00030" summary="fixed spacing for HTML file">
-      <option name="closed" value="true" />
-      <created>1740243476178</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1740243476178</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Adding files to repo for Assignment 3 part 2">
-      <option name="closed" value="true" />
-      <created>1740243887826</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1740243887826</updated>
-    </task>
-    <task id="LOCAL-00032" summary="remove a file">
-      <option name="closed" value="true" />
-      <created>1740243942302</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1740243942302</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Added html header">
-      <option name="closed" value="true" />
-      <created>1740244128322</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1740244128322</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Added header to CSS file.">
-      <option name="closed" value="true" />
-      <created>1740244190378</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1740244190378</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Added CSS link">
-      <option name="closed" value="true" />
-      <created>1740244516267</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1740244516267</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Added a div and set the width to 200px and the height to auto">
-      <option name="closed" value="true" />
-      <created>1740245366221</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1740245366221</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Centered the box horizontally&#10;Implemented red as the background colour">
-      <option name="closed" value="true" />
-      <created>1740245700663</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1740245700663</updated>
+      <workItem from="1743731719146" duration="925000" />
+      <workItem from="1744043551744" duration="26439000" />
+      <workItem from="1744212814338" duration="1711000" />
+      <workItem from="1744303132333" duration="1331000" />
     </task>
     <task id="LOCAL-00038" summary="Centered the box horizontally.&#10;Implemented red as the background colour.&#10;Added a contrasting color white and added a black shadow for text on the page.">
       <option name="closed" value="true" />
@@ -464,7 +395,95 @@
       <option name="project" value="LOCAL" />
       <updated>1743660863906</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Fixed issue with radio buttons.">
+      <option name="closed" value="true" />
+      <created>1743732524891</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1743732524891</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Adding files to repo for assignment 5.">
+      <option name="closed" value="true" />
+      <created>1744045202158</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1744045202158</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Adding a header to the files.">
+      <option name="closed" value="true" />
+      <created>1744045415682</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1744045415682</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Changed background color to white for increased contrast and better reading.">
+      <option name="closed" value="true" />
+      <created>1744075240006</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1744075240006</updated>
+    </task>
+    <task id="LOCAL-00080" summary="• all &lt;br/&gt; tags are removed&#10;• all &lt;font&gt; elements are replaced with appropriate heading elements (i.e. &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt; etc.)&#10;• all paragraphs are wrapped in &lt;p&gt; tags">
+      <option name="closed" value="true" />
+      <created>1744075372872</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1744075372875</updated>
+    </task>
+    <task id="LOCAL-00081" summary="in the CSS file, font[size=&quot;7&quot;]/font[size=&quot;6&quot;]/font[size=&quot;5&quot;] is replaced with h1/h2/h3">
+      <option name="closed" value="true" />
+      <created>1744077486643</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1744077486643</updated>
+    </task>
+    <task id="LOCAL-00082" summary="•&#9; &lt;div class=&quot;nav&quot;&gt;...&lt;/div&gt; element  replaced with a &lt;nav&gt;...&lt;/nav&gt;, with the div[class=nav'] selector in the *.css modified to a nav selector.">
+      <option name="closed" value="true" />
+      <created>1744079963455</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1744079963455</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Made the images accessible to screenreaders by including appropriate alt attributes.&#10;&#10;Made changes to html to meet html validation.">
+      <option name="closed" value="true" />
+      <created>1744085487563</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1744085487563</updated>
+    </task>
+    <task id="LOCAL-00084" summary="•Added a link in the alt attribute for the audio file for older browser support&#10;&#10;• Added appropriate aria-label attribute on &lt;form&gt; input elements&#10;&#10;• Added a transcript of the audio file for hearing impaired users&#10;&#10;• Label text is wrapped inside &lt;label&gt; elements setting for attributes that contain the ID values of the input elements of the labels they are for.">
+      <option name="closed" value="true" />
+      <created>1744092096892</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1744092096892</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Fixed issue with type selector.">
+      <option name="closed" value="true" />
+      <created>1744092638048</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1744092638048</updated>
+    </task>
+    <task id="LOCAL-00086" summary="• made the show/hide comment control button keyboard accessible.&#10;&#10;• made the table of data more screenreader friendly by including a summary attribute and/or a &lt;caption&gt; element, changin the first row to &lt;th&gt; elements and adding scope=&quot;col&quot; to the heading in the first row and scope=&quot;row&quot; to the headings in the first column.">
+      <option name="closed" value="true" />
+      <created>1744093874954</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1744093874954</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,17 +501,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Edit to CSS link" />
-    <MESSAGE value="Adding Assignment 3 part 4 files to repo" />
-    <MESSAGE value="edit made to html file for CSS link" />
-    <MESSAGE value="Added Header to html file" />
-    <MESSAGE value="Added Header to CSS file" />
-    <MESSAGE value="Added display: flexbox and justify-content for nav ul" />
-    <MESSAGE value="Added functionality that the navigation bar scrolls with content, sticks to the top when it goes past the initial page size" />
-    <MESSAGE value="Added float: left and margin: 0 20px 20px 0;&#10;&#10;the image that is inside the article will have text wrapped around it." />
-    <MESSAGE value="The &lt;article&gt; and &lt;aside&gt; elements are displayed as a two column layout. The columns are flexible." />
-    <MESSAGE value=" Displayed the images as a two-column grid with a 1-pixel gap between the images." />
-    <MESSAGE value="Changed Jane doe name to Aravind" />
     <MESSAGE value="Removed xhtml and went back to html&#10;Added comments to code" />
     <MESSAGE value="Fixed link to github" />
     <MESSAGE value="Fixed comment header" />
@@ -507,6 +515,17 @@
     <MESSAGE value="Used newStory.replaceAll() function call to replace :insertx:, :inserty: and :insertz: with the random insertX, insertY and insertZ variables.&#10;Used newStory.replaceAll() function call to replace Bob in the newstory variable with the name entered." />
     <MESSAGE value="Add conversion logic to result function for &quot;uk&quot; radio input&#10;&#10;- Convert 300lb to its equivalent in &quot;stones&quot; when the &quot;uk&quot; radio input is selected.&#10;- Convert 94°F to its equivalent in centigrade using the equation celsius = (fahrenheit - 32) * 5 / 9 when the &quot;uk&quot; radio input is selected." />
     <MESSAGE value="Added comments." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added comments." />
+    <MESSAGE value="Fixed issue with radio buttons." />
+    <MESSAGE value="Adding files to repo for assignment 5." />
+    <MESSAGE value="Adding a header to the files." />
+    <MESSAGE value="Changed background color to white for increased contrast and better reading." />
+    <MESSAGE value="• all &lt;br/&gt; tags are removed&#10;• all &lt;font&gt; elements are replaced with appropriate heading elements (i.e. &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt; etc.)&#10;• all paragraphs are wrapped in &lt;p&gt; tags" />
+    <MESSAGE value="in the CSS file, font[size=&quot;7&quot;]/font[size=&quot;6&quot;]/font[size=&quot;5&quot;] is replaced with h1/h2/h3" />
+    <MESSAGE value="•&#9; &lt;div class=&quot;nav&quot;&gt;...&lt;/div&gt; element  replaced with a &lt;nav&gt;...&lt;/nav&gt;, with the div[class=nav'] selector in the *.css modified to a nav selector." />
+    <MESSAGE value="Made the images accessible to screenreaders by including appropriate alt attributes.&#10;&#10;Made changes to html to meet html validation." />
+    <MESSAGE value="•Added a link in the alt attribute for the audio file for older browser support&#10;&#10;• Added appropriate aria-label attribute on &lt;form&gt; input elements&#10;&#10;• Added a transcript of the audio file for hearing impaired users&#10;&#10;• Label text is wrapped inside &lt;label&gt; elements setting for attributes that contain the ID values of the input elements of the labels they are for." />
+    <MESSAGE value="Fixed issue with type selector." />
+    <MESSAGE value="• made the show/hide comment control button keyboard accessible.&#10;&#10;• made the table of data more screenreader friendly by including a summary attribute and/or a &lt;caption&gt; element, changin the first row to &lt;th&gt; elements and adding scope=&quot;col&quot; to the heading in the first row and scope=&quot;row&quot; to the headings in the first column." />
+    <option name="LAST_COMMIT_MESSAGE" value="• made the show/hide comment control button keyboard accessible.&#10;&#10;• made the table of data more screenreader friendly by including a summary attribute and/or a &lt;caption&gt; element, changin the first row to &lt;th&gt; elements and adding scope=&quot;col&quot; to the heading in the first row and scope=&quot;row&quot; to the headings in the first column." />
   </component>
 </project>
