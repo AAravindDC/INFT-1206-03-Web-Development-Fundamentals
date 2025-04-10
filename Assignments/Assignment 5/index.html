@@ -13,12 +13,10 @@ Link to repo https://github.com/AAravindDC/INFT-1206-03-Web-Development-Fundamen
 
   <!-- Page Title -->
   <title>Accessibility assessment</title>
-
-  <!-- Linking Google Fonts and external stylesheet -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300%7CSonsie+One" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="style.css">
 
-  <!-- HTML5 shim for older versions of Internet Explorer -->
+  <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -30,8 +28,8 @@ Link to repo https://github.com/AAravindDC/INFT-1206-03-Web-Development-Fundamen
   <h1>Welcome to our wildlife website</h1>
 </header>
 
+<!-- Navigation menu -->
 <nav>
-  <!-- Navigation menu -->
   <ul>
     <li><a href="#">Home</a></li>
     <li><a href="#">Our team</a></li>
@@ -39,7 +37,6 @@ Link to repo https://github.com/AAravindDC/INFT-1206-03-Web-Development-Fundamen
     <li><a href="#">Blog</a></li>
   </ul>
 
-  <!-- Search form -->
   <form class="search">
     <input type="search" name="q" placeholder="Search query">
     <input type="submit" value="Go!">
@@ -47,15 +44,22 @@ Link to repo https://github.com/AAravindDC/INFT-1206-03-Web-Development-Fundamen
 </nav>
 
 <main>
+  <!-- Article content about bears -->
   <article>
-    <!-- Article content about bears -->
     <h2>The trouble with Bears</h2>
+
     <p>By Evan Wild</p>
-    <p>lumbering, angry, dangerous... (content about bears)</p>
+
+    <p>lumbering, angry, dangerous. The real live bears of this world are proud, independent creatures, self-serving and always on the hunt for food. Nothing like the bears you see on TV, like Baloo from renowned documentary, The Jungle Book.</p>
+
+    <p>So what are bears really like, and why does the world's media portray them with such a skewed vision? In this article we try to answer those questions, and give you a real insight into the life of the bear.</p>
 
     <!-- Section on types of bears -->
     <h3>Types of bear</h3>
-    <p>Information about bear sizes and habitats...</p>
+
+    <p>Bears come in two varieties — large and medium. You don't get small bears. If you have seen a small bear, then it was in fact probably a baby bear (cub) from another species.</p>
+
+    <p>Bears can also be classified in terms of their habitat — both large and medium bears are just as at home in urban areas as they are in the countryside. Different habitats encourange different behaviour however, as you'll find out below. The below table also gives you some useful facts about bears.</p>
 
     <!-- Data table about bears -->
     <table>
@@ -90,16 +94,25 @@ Link to repo https://github.com/AAravindDC/INFT-1206-03-Web-Development-Fundamen
       </tbody>
     </table>
 
-    <!-- Habitat and eating habits -->
+    <!-- Section on habitats and eating habits of bears -->
     <h3>Habitats and Eating habits</h3>
-    <p>Description of wild and urban bear diets...</p>
-    <img src="media/wild-bear.jpg" alt="A brown bear walking through shallow water">
-    <p>Details on urban bears and their eating habits...</p>
+
+    <p>Wild bears eat a variety of meat, fish, fruit, nuts, and other natually growing ingredients. In general they will hunt for food themselves in woodland or rivers, but at a push they will track down their sustenance from farms or country houses. They tend to live in relative isolation, in caves, tents, or cottages.</p>
+
+    <img src="media/wild-bear.jpg"  alt="A brown bear walking through shallow water">
+
+    <p>(gentrified) bears on the other hand have largely abandoned the old ways. They will hunt other urban creatures if necessary (including other predators like rats and foxes), but prefer to scavenge from readily available urban food outlets like dumpsters, bins, and fast food joints. When food has proven scarce, urban bears have even been known to break into people's kitchens and steal essentials like baked beans, ready meals, and microwave ovens.</p>
+
     <img src="media/urban-bear.jpg" alt="A black and white photo of a brown bear in a cage at the zoo">
 
-    <!-- Section on mating rituals -->
+    <p>Urban bears will sleep anywhere they can, from bus shelters and parks, to the toilets in McDonalds, to their own apartment.</p>
+
+    <!-- Section on mating rituals of bears -->
     <h3>Mating rituals</h3>
-    <p>Bears are romantic creatures... (content about bear mating rituals)</p>
+
+    <p>Bears are romantic creatures by nature, and will naturally look for a mate that they can spend the rest of their lives with. They will woo a potential suitor by making their dwelling look attractive — for example with cave paintings or a bed of reeds in the case of a wild bear, and mood lighting and a Michael Bublé CD in the case of an urban bear.</p>
+
+    <p>The following audio clip contains a fact file providing more details about bear mating rituals, along with samples and quotes from experts.</p>
 
     <!-- Audio player with alternative content -->
     <audio controls>
@@ -107,21 +120,26 @@ Link to repo https://github.com/AAravindDC/INFT-1206-03-Web-Development-Fundamen
       <source src="media/bear.ogg" type="audio/ogg">
       <p>It looks like your browser doesn't support HTML5 audio players. Here is a <a href="media/bear.mp3">direct link to the audio file</a> instead.</p>
     </audio>
-    <p><strong>Transcript for the Audio above:</strong> "This isn't really an audio fact file about bears..."</p>
+    <p><strong>Transcript for the Audio above:</strong> " This isn't really an audio fact file about bears, but it is an audio file that you can transcribe. "</p>
 
     <!-- Sidebar about the author -->
     <aside>
       <h3>About the author</h3>
-      <p>Author bio and trivia...</p>
+
+      <p>Evan Wild is an unemployed plumber from Doncaster, who has been really "in to" wildlife since childhood. He once went to Chester Zoo on holiday, but got ill after eating a doner kebab.</p>
+
+      <p>He has never seen a bear, but once read a Daily Mail article about them, and thinks they sound cool.</p>
+
     </aside>
 
     <!-- Comments section -->
     <section class="comments">
       <button class="show-hide" aria-label="Show comments">Show comments</button>
 
-      <!-- Form for adding comments -->
       <div class="comment-wrapper">
         <h2>Add comment</h2>
+
+        <!-- Form for adding comments -->
         <form class="comment-form">
           <div class="flex-pair">
             <label for="name">Your name:</label>
@@ -136,21 +154,23 @@ Link to repo https://github.com/AAravindDC/INFT-1206-03-Web-Development-Fundamen
           </div>
         </form>
 
-        <!-- Displayed comments -->
         <h2>Comments</h2>
+        <!-- Displayed comments -->
         <ul class="comment-container">
           <li>
             <p>Bob Fossil</p>
-            <p>Comment content...</p>
+            <p>Oh I am so glad you taught me all about the big brown angry guys in the woods. With their sniffing little noses and their bad attitudes, they can sure be a menace — I was thinking of putting them all in a truck and driving them outta here. I run a zoo, you know.</p>
           </li>
         </ul>
       </div>
     </section>
+
   </article>
 
   <!-- Related articles -->
   <div class="secondary">
     <h2>Related</h2>
+
     <ul>
       <li><a href="#">The trouble with Bees</a></li>
       <li><a href="#">The trouble with Otters</a></li>
@@ -161,12 +181,11 @@ Link to repo https://github.com/AAravindDC/INFT-1206-03-Web-Development-Fundamen
   </div>
 </main>
 
-<!-- Footer content -->
 <footer>
   <p>©Copyright 2050 by nobody. All rights reversed.</p>
 </footer>
 
-<!-- Javascript file link-->
 <script src="main.js"></script>
+
 </body>
 </html>
